@@ -17,6 +17,11 @@
         font-size: 30px;
         font-weight: normal;
     }
+
+    img {
+        object-fit: contain;
+        width: 50%;
+    }
 }
 
 .p_service_ttl {
@@ -24,6 +29,10 @@
     gap: 20px;
     align-items: center;
     margin-bottom: 20px;
+}
+
+.p_service_group {
+    width: 50%;
 }
 
 

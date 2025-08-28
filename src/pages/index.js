@@ -312,7 +312,7 @@ export default function Home() {
                                     <div className={styles.blog_group}>
                                         <div className={styles.blog_date_category}>
                                             <p className={styles.date}>2024.12.30</p>
-                                            <p className={styles.category}> Recruit</p>
+                                            <p className={styles.category}>Recruit</p>
                                         </div>
                                         <p className={styles.ttl}>
                                             Anselの学習支援制度について

@@ -687,7 +687,7 @@ SP
       margin-bottom: 10px;
 
       .category {
-          border: 1px solid var(--light-brack);
+          border: 1px solid var(--light-black);
           padding: 0 15px;
           line-height: 1em;
           height: fit-content;
@@ -695,7 +695,7 @@ SP
   }
 
   .blog_group {
-      color: var(--light-brack);
+      color: var(--light-black);
       letter-spacing: 0.02em;
   }
 }
