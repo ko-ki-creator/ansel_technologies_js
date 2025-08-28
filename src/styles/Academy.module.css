@@ -1,0 +1,412 @@
+/* -----------------------------------------
+エンジニア教育ページ
+----------------------------------------- */
+
+/* -----------------------------------------特徴 */
+.feature_container {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.feature_content {
+    text-align: center;
+    background-color: #F3F3F3;
+    padding: 10px;
+    width: 280px;
+
+    img {
+        margin: 0 auto;
+    }
+}
+
+
+/* -----------------------------------------カリキュラム */
+.curriculum_content {
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.curriculum_group {
+    width: 50%;
+
+    h2 {
+        font-size: 30px;
+        font-weight: normal;
+        letter-spacing: 0.1em;
+        margin-bottom: 20px;
+        padding-left: 20px;
+        border-left: 5px solid var(--blue);
+    }
+
+    p {
+        letter-spacing: 0.15em;
+    }
+}
+
+.curriculum_img {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    width: 50%;
+
+    img {
+        width: 78px;
+        height: fit-content;
+    }
+}
+
+
+
+/* -----------------------------------------スクール生の声 */
+.voice_container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.voice_content {
+    width: 32%;
+    background-color: #F3F8FD;
+    padding: 15px;
+    text-align: center;
+
+    img {
+        width: 100%;
+        height: fit-content;
+        margin: 0 auto 20px;
+    }
+
+    h4,h5 {
+        font-size: 21px;
+        font-family: var(--font-hiragino);
+        font-weight: normal;
+        letter-spacing: 0.05em;
+        margin-bottom: 10px;
+    }
+
+    p {
+        text-align: left;
+    }
+}
+
+
+
+/* ---------------------------他スクールとの比較 */
+.scroll_arrow {
+    display: none;
+}
+
+.myTable {
+    border-collapse: collapse;
+    text-align: center;
+    width: 100%;
+    font-family: var(--font-hiragino);
+
+    th, td {
+        border: 1px solid #B3B3B3;
+        padding: 15px 0;
+    }
+}
+
+.head {
+    color: var(--black);
+    background-color: #EAEAEA;
+    font-weight: 400;
+    width: 18%;
+}
+
+.th_space {
+    border: none;
+}
+
+.ansel {
+    color: var(--white);
+    background-color: var(--blue);
+    width: 25%;
+}
+
+.ansel_item {
+    color: var(--black);
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #E1EFFF;
+}
+
+.column {
+    color: var(--white);
+    background-color: #787878;
+}
+
+
+
+/* ---------------------------申込みの流れ */
+.flow_container {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.flow_content {
+    margin-bottom: 10px;
+
+    > p {
+        border-left: 1px solid var(--blue);
+        margin-left: 25px;
+        padding-left: 45px;
+        height: auto;
+        min-height: 100px;
+    }
+}
+
+.flow_ttl {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-bottom: 10px;
+
+    p {
+        color: var(--white);
+        background-color: var(--blue);
+        font-size: 25px;
+        font-family: var(--font-yumincho);
+        letter-spacing: 0.05em;
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        display: grid;
+        place-content: center;
+    }
+
+    h4 {
+        font-size: 24px;
+        font-weight: normal;
+    }
+}
+
+.no_border {
+    border-left: none !important;
+    height: fit-content !important;
+}
+
+
+
+/* ---------------------------CTA */
+.education_cta {
+    background-image: url(/images/academy/cta-back.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 362px;
+    margin-bottom: 100px;
+    padding: 50px 0;
+}
+
+.education_inner {
+    display: flex;
+}
+
+.education_cta_logo {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    width: 50%;
+
+    h4 {
+        color: var(--white);
+        font-size: 60px;
+        font-family: var(--font-italiana);
+        letter-spacing: 0.05em;
+    }
+}
+
+.education_txt {
+    color: var(--white);
+
+    h5 {
+        font-size: 30px;
+        font-weight: normal;
+        letter-spacing: 0.05em;
+        margin-bottom: 20px;
+    }
+
+    > p {
+        margin-bottom: 20px;
+        letter-spacing: 0.02em;
+    }
+}
+
+.counseling_cta {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    background-color: var(--white);
+    width: fit-content;
+    padding: 20px;
+    transition-duration: .3s;
+
+    p {
+        color: var(--blue);
+        font-size: 21px;
+        font-family: var(--font-hiragino);
+        font-weight: bold;
+        letter-spacing: 0.02em;
+        display: inline-block;
+    }
+
+    &:hover {
+        background-color: #ddd;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ---------------------------------------------------
+SP
+--------------------------------------------------- */
+@media screen and (max-width: 767px) {
+/* -----------------------------------------特徴 */
+    .feature_container {
+        flex-direction: column;
+    }
+
+    .feature_content {
+        width: 100%;
+        min-width: 200px;
+
+        img {
+            margin: 0 auto;
+        }
+    }
+
+
+    /* -----------------------------------------カリキュラム */
+    .curriculum_content {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .curriculum_group {
+        width: 100%;
+
+        h2 {
+            font-size: 21px;
+        }
+    }
+
+    .curriculum_img {
+        width: 100%;
+
+        img {
+            width: 20%;
+        }
+    }
+
+
+    /* -----------------------------------------スクール生の声 */
+    .voice_content {
+        width: 100%;
+    }
+
+
+
+
+    /* ---------------------------他スクールとの比較 */
+    .scroll_arrow {
+        display: flex;
+        justify-content: end;
+        align-items: flex-start;
+        margin-bottom: 10px;
+
+        p {
+            color: var(--blue);
+            font-size: 13px;
+            font-family: var(--font-italiana);
+            line-height: 1em;
+        }
+
+        img {
+            width: 50px;
+        }
+    }
+
+    .difference_content {
+        overflow: scroll;
+
+        &::-webkit-scrollbar {
+            display: none;
+        }
+    }
+
+    .difference_table {
+        width: 810px;
+        white-space: nowrap;
+    }
+
+    .column {
+        width: 10%;
+    }
+
+
+
+    /* ---------------------------CTA */
+    .education_cta {
+        height: 530px;
+        margin-bottom: 50px;
+        padding: 50px 15px;
+    }
+
+    .education_inner {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .education_cta_logo {
+        width: 100%;
+        justify-content: center;
+        gap: 32px;
+
+        img {
+            width: 30%;
+        }
+
+        h4 {
+            font-size: 36px;
+            font-weight: normal;
+            line-height: 1.2em;
+        }
+    }
+
+    .education_txt {
+
+        h5 {
+            font-size: 18px;
+        }
+    }
+
+    .counseling_cta {
+        justify-content: center;
+        margin: 0 auto;
+
+        p {
+            font-size: 18px;
+        }
+    }
+}

@@ -1,0 +1,58 @@
+/* -----------------------------------------
+事業内容ページ
+----------------------------------------- */
+
+/* -----------------------------------------コンテナ */
+.p_service_content {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    margin-bottom: 50px;
+
+    &:last-child {
+        margin-bottom: 0;
+    }
+
+    h2 {
+        font-size: 30px;
+        font-weight: normal;
+    }
+}
+
+.p_service_ttl {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+/* ---------------------------------------------------
+SP
+--------------------------------------------------- */
+@media screen and (max-width: 767px) {
+    /* -----------------------------------------コンテナ */
+    .p_service_content {
+        flex-direction: column-reverse;
+        gap: 20px;
+
+        h2 {
+            font-size: 21px;
+        }
+    }
+
+    .p_service_education {
+        flex-direction: column;
+    }
+
+    .p_service_group {
+        width: 100%;
+    }
+}

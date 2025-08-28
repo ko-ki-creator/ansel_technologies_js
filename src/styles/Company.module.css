@@ -1,0 +1,271 @@
+/* -----------------------------------------
+会社概要ページ
+----------------------------------------- */
+
+/* -----------------------------------------会社概要 */
+.company_table {
+    border: 1px solid var(--gold);
+    border-collapse: collapse;
+    width: 100%;
+
+    tr {
+        font-family: var(--font-hiragino);
+        font-weight: normal;
+
+        th {
+            width: 20%;
+            color: var(--white);
+            background-color: var(--gold);
+            border-bottom: 1px solid #CFC33D;
+            font-weight: normal;
+        }
+
+        td {
+            padding: 15px 0 15px 30px;
+            border-bottom: 1px solid var(--gold);
+        }
+    }
+}
+
+
+
+/* -----------------------------------------役員紹介 */
+.management_team_container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.management_team_content {
+    width: 32%;
+
+    img {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .management_name {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        margin-bottom: 10px;
+        padding: 10px 0;
+        border-bottom: 1px solid var(--blue);
+
+        .name {
+            font-size: 24px;
+            font-weight: bold;
+        }
+    }
+}
+
+
+
+/* -----------------------------------------ギャラリー */
+.gallery_container {
+	width: 70%;
+	margin: 0 auto;
+	padding: 0 25px;
+}
+
+.gallery_content {
+    position: relative;
+}
+
+.slick_slide {
+	margin: 0 5px;
+}
+
+.slick_slide img {
+	width: 100%;
+	height: auto;
+    margin-bottom: 50px;
+}
+
+.slick_prev, .slick_next {
+	z-index: 1;
+}
+.slick_prev:before, .slick_next:before {
+	color: var(--blue);
+}
+.slick_slide {
+	transition: all ease-in-out .3s;
+	opacity: .2;
+}
+.slick_active {
+	opacity: 1;
+}
+.slick_current {
+	opacity: 1;
+}
+.thumb {
+	margin: 20px 0 0;
+}
+.thumb .slick_slide {
+	cursor: pointer;
+}
+.thumb .slick_slide:hover {
+	opacity: .7;
+}
+
+.prev_arrow,
+.next_arrow {
+    display: block;
+    width: 40px;
+    height: 40px;
+    background: var(--white);
+    border: 1px solid var(--blue);
+    border-radius: 50%;
+    transition: all .3s ease;
+    cursor: pointer;
+    position:relative;
+}
+
+.prev_arrow {
+    transform: translateY(-50%) rotate(180deg);
+    position: absolute;
+    top: 50%;
+    left: -80px;
+}
+
+.next_arrow {
+    transform: translateY(-50%);
+    position: absolute;
+    top: 50%;
+    right: -80px;
+}
+
+.prev_arrow::before,
+.next_arrow::before{
+    position:absolute;
+    content: "";
+    width:10px;
+    height:10px;
+    border-right: 2px solid var(--blue);
+    border-top: 2px solid var(--blue);
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    margin:auto;
+    transform:rotate(45deg);
+}
+
+
+
+/* -----------------------------------------アクセス */
+.tokyo {
+    margin-bottom: 50px;
+}
+
+.access_content iframe {
+    width: 100%;
+    height: 360px;
+    margin-bottom: 30px;
+}
+
+.access_group {
+    text-align: center;
+
+    .access-office {
+        margin-bottom: 10px;
+    }
+}
+
+.access_group_flex {
+    display: flex;
+    gap: 30px;
+}
+
+.access_content img {
+    margin-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ---------------------------------------------------
+SP
+--------------------------------------------------- */
+@media screen and (max-width: 767px) {
+    /* -----------------------------------------会社概要 */
+    .company_table {
+
+        tr {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+
+            th {
+                width: 100%;
+                padding: 15px 0;
+            }
+
+            td {
+                padding: 15px 0;
+            }
+        }
+    }
+
+
+    /* -----------------------------------------役員紹介 */
+    .management_team_container {
+        flex-direction: column;
+    }
+
+    .management_team_content {
+        width: 100%;
+        margin-bottom: 50px;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+
+        img {
+            width: 60%;
+            height: fit-content;
+            margin: 0 auto 20px;
+        }
+    }
+
+
+    /* -----------------------------------------ギャラリー */
+    .gallery_container {
+        width: 100%;
+        padding: 0;
+    }
+
+    .slick-slide img {
+        width: 100%;
+        margin-bottom: 0;
+    }
+
+
+    /* -----------------------------------------アクセス */
+    .access_group_flex {
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .access_content img {
+        width: 70%;
+        height: fit-content;
+        margin: 0 auto 15px;
+    }
+}
