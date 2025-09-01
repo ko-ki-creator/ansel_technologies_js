@@ -74,18 +74,18 @@ export default function Home() {
                                     </p>
                                 </div>
                                 <Image
-                                className={styles.meeting_img}
-                                src="/images/vision/vision2.png"
-                                alt="良い技術者が集まり、次の技術者を教え育む組織"
-                                width={870}
-                                height={350}
+                                    className={styles.meeting_img}
+                                    src="/images/vision/vision2.png"
+                                    alt="良い技術者が集まり、次の技術者を教え育む組織"
+                                    width={870}
+                                    height={350}
                                 />
                                 <Image
-                                className={styles.woman_img}
-                                src="/images/vision/vision1.png"
-                                alt="良い技術者が集まり、次の技術者を教え育む組織"
-                                width={354}
-                                height={386}
+                                    className={styles.woman_img}
+                                    src="/images/vision/vision1.png"
+                                    alt="良い技術者が集まり、次の技術者を教え育む組織"
+                                    width={354}
+                                    height={386}
                                 />
                             </div>
                         </div>
@@ -210,28 +210,28 @@ export default function Home() {
                                         <Link href="/recruit">
                                             <p>採用情報トップ</p>
                                             <Image
-                                            src="/images/arrow-icon/arrow-blue-back.svg"
-                                            alt=""
-                                            width={20}
-                                            height={20}
+                                                src="/images/arrow-icon/arrow-blue-back.svg"
+                                                alt=""
+                                                width={20}
+                                                height={20}
                                             />
                                         </Link>
-                                        <Link href="/recruit_education">
+                                        <Link href="/recruit_experienced">
                                             <p>IT経験者採用</p>
                                             <Image
-                                            src="/images/arrow-icon/arrow-blue-back.svg"
-                                            alt=""
-                                            width={20}
-                                            height={20}
+                                                src="/images/arrow-icon/arrow-blue-back.svg"
+                                                alt=""
+                                                width={20}
+                                                height={20}
                                             />
                                         </Link>
                                         <Link href="/recruit_school">
                                             <p>スクール生採用</p>
                                             <Image
-                                            src="/images/arrow-icon/arrow-blue-back.svg"
-                                            alt=""
-                                            width={20}
-                                            height={20}
+                                                src="/images/arrow-icon/arrow-blue-back.svg"
+                                                alt=""
+                                                width={20}
+                                                height={20}
                                             />
                                         </Link>
                                     </div>
@@ -278,19 +278,19 @@ export default function Home() {
                             <div className={styles.blog_arrow}>
                                 <p>SCROLL</p>
                                 <Image
-                                src="/images/blog/blog-scroll-arrow.png"
-                                alt=""
-                                width={50}
-                                height={7}
+                                    src="/images/blog/blog-scroll-arrow.png"
+                                    alt=""
+                                    width={50}
+                                    height={7}
                                 />
                             </div>
                             <div className={styles.blog_container}>
                                 <Link href="/blog-page" className={styles.blog_content}>
                                     <Image
-                                    src="/images/blog/blog1.png"
-                                    alt="【エンジニアインタビュー】ネットワークエンジニアに聞いてみた！"
-                                    width={300}
-                                    height={180}
+                                        src="/images/blog/blog1.png"
+                                        alt="【エンジニアインタビュー】ネットワークエンジニアに聞いてみた！"
+                                        width={300}
+                                        height={180}
                                     />
                                     <div className={styles.blog_group}>
                                         <div className={styles.blog_date_category}>
@@ -304,10 +304,10 @@ export default function Home() {
                                 </Link>
                                 <a href="/blog-page" className={styles.blog_content}>
                                     <Image
-                                    src="/images/blog/blog2.png"
-                                    alt="Anselの学習支援制度について"
-                                    width={300}
-                                    height={180}
+                                        src="/images/blog/blog2.png"
+                                        alt="Anselの学習支援制度について"
+                                        width={300}
+                                        height={180}
                                     />
                                     <div className={styles.blog_group}>
                                         <div className={styles.blog_date_category}>
@@ -321,10 +321,10 @@ export default function Home() {
                                 </a>
                                 <a href="/blog-page" className={styles.blog_content}>
                                     <Image
-                                    src="/images/blog/blog3.png"
-                                    alt="【社員ブログ】Connecting the dots"
-                                    width={300}
-                                    height={180}
+                                        src="/images/blog/blog3.png"
+                                        alt="【社員ブログ】Connecting the dots"
+                                        width={300}
+                                        height={180}
                                     />
                                     <div className={styles.blog_group}>
                                         <div className={styles.blog_date_category}>
@@ -338,10 +338,10 @@ export default function Home() {
                                 </a>
                                 <a href="/blog-page" className={styles.blog_content}>
                                     <Image
-                                    src="/images/blog/blog4.png"
-                                    alt="【社員ブログ】IT経験なしの私がAnsel Technologiesに惹かれて入社するまで"
-                                    width={300}
-                                    height={180}
+                                        src="/images/blog/blog4.png"
+                                        alt="【社員ブログ】IT経験なしの私がAnsel Technologiesに惹かれて入社するまで"
+                                        width={300}
+                                        height={180}
                                     />
                                     <div className={styles.blog_group}>
                                         <div className={styles.blog_date_category}>
@@ -355,10 +355,10 @@ export default function Home() {
                                 </a>
                                 <a href="/blog-page" className={styles.blog_content}>
                                     <Image
-                                    src="/images/blog/blog5.png"
-                                    alt="ほぼゲーム！？作って遊んで仕事もできる！話題のGather.Townを使ってみた"
-                                    width={300}
-                                    height={180}
+                                        src="/images/blog/blog5.png"
+                                        alt="ほぼゲーム！？作って遊んで仕事もできる！話題のGather.Townを使ってみた"
+                                        width={300}
+                                        height={180}
                                     />
                                     <div className={styles.blog_group}>
                                         <div className={styles.blog_date_category}>

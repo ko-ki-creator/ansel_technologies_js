@@ -241,11 +241,11 @@
         background-color: var(--blue);
     }
 
-    .menu-open {
+    .menu_open {
         display: none;
     }
 
-    .menu-close {
+    .menu_close {
         display: block;
         color: var(--blue);
     }
