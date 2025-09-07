@@ -1,0 +1,701 @@
+/* -----------------------------------------
+トップページ：ファーストビュー
+----------------------------------------- */
+.fv_wrapper {
+    margin-bottom: 100px;
+}
+
+.fv_back_img {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+
+    .blue_logo,
+    .fv_back {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        position: relative;
+    }
+}
+
+.fv_inner {
+    position: relative;
+
+    h2 {
+        color: var(--white);
+        font-size: clamp(1.875rem, 1.215rem + 2.82vw, 3.75rem);
+        font-weight: normal;
+        letter-spacing: 0.02em;
+        text-shadow: 2px 2px 5px rgba(121, 139, 165, 1);
+        position: absolute;
+        top: 48%;
+        left: 8%;
+        transform: translateY(-48%);
+
+        span {
+            font-size: clamp(2.813rem, 1.822rem + 4.23vw, 5.625rem);
+        }
+    }
+}
+
+.fv_news_group {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 20%;
+    right: 0;
+    height: 48px;
+
+    h3 {
+        color: var(--white);
+        font-size: 21px;
+        font-weight: 400;
+        font-family: var(--font-italiana);
+        background-color: var(--gold);
+        padding: 10px 20px;
+        height: fit-content;
+        border-radius: 20px 0 0 20px;
+    }
+}
+
+.fv_news_content {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    background-color: var(--white);
+    height: 100%;
+    padding: 10px 20px;
+
+    p {
+        font-family: var(--font-hiragino);
+    }
+}
+
+.fv_news_date_thema {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.fv_scroll {
+    position: absolute;
+    bottom: 105px;
+    left: 15px;
+
+    p {
+        color: var(--white);
+        font-family: var(--font-italiana);
+        writing-mode: vertical-rl;
+        text-orientation: mixed;
+        position: relative;
+        letter-spacing: 0.02em;
+
+        &::after {
+            content: '';
+            width: 1px;
+            height: 90px;
+            background-color: var(--white);
+            position: absolute;
+            top: 70px;
+            left: 50%;
+        }
+    }
+}
+
+
+
+/* -----------------------------------------ビジョン */
+.vision {
+    background-image: url(/images/vision/vision-blue-circle.png);
+    background-size: 530px 530px;
+    background-repeat: no-repeat;
+    background-position: left top;
+}
+
+.vision_container {
+    position: relative;
+    height: 630px;
+
+    .meeting_img {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+
+    .woman_img {
+        position: absolute;
+        top: 50%;
+        left: 0;
+        transform: translateY(-50%);
+    }
+}
+
+.vision_content {
+    display: flex;
+
+    h4 {
+        font-size: 30px;
+        font-weight: normal;
+        width: 50%;
+        letter-spacing: 0.03em;
+    }
+
+    p {
+        width: 50%;
+    }
+}
+
+
+
+
+/* -----------------------------------------ミッション */
+.mission {
+    background-image: url(/images/top/mission-blue-circle.png);
+    background-size: 530px 530px;
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+
+.mission_container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.mission_content {
+    width: 50%;
+
+    h4 {
+        font-size: 30px;
+        font-weight: normal;
+        margin-bottom: 50px;
+        letter-spacing: 0.03em;
+    }
+}
+
+
+
+/* -----------------------------------------サービス */
+.service {
+    background-image: url(/images/service/service-blue-circle.png);
+    background-size: 530px 530px;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    height: 500px;
+    margin-bottom: 100px;
+}
+
+.service_inner {
+    display: flex;
+}
+
+.service_left {
+    width: 55%;
+}
+
+.service_content {
+    width: 100%;
+
+    h4 {
+        font-size: 30px;
+        font-weight: normal;
+        margin-bottom: 50px;
+        letter-spacing: 0.03em;
+    }
+
+    p {
+        width: 85%;
+    }
+}
+
+.service_group {
+    position: relative;
+    width: 48%;
+    height: 500px;
+
+    .service_item {
+        width: 270px;
+        height: 270px;
+        border-radius: 135px;
+        border: 1px solid #3B72D0;
+        text-align: center;
+        padding-top: 50px;
+
+        .ttl {
+            font-size: 12px;
+        }
+
+        h5 {
+            font-size: 18px;
+            font-family: var(--font-hiragino);
+            margin: 8px auto;
+        }
+
+        .detail {
+            padding: 0 20px;
+        }
+    }
+}
+
+.it_solution {
+    background-color: #B8D2FF;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 30;
+}
+
+.education {
+    background-color: #CCE0FF;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 20;
+}
+
+.in_house {
+    background-color: #DDEAFF;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 10;
+}
+
+
+
+/* -----------------------------------------リクルート */
+.recruit {
+    background-image: url(/images/recruit/recruit-blue-circle.png);
+    background-size: 530px 530px;
+    background-repeat: no-repeat;
+    background-position: right top;
+    height: 690px;
+    margin-bottom: 100px;
+}
+
+.recruit_container {
+    display: flex;
+}
+
+.recruit_content {
+
+    h4 {
+        font-size: 30px;
+        font-weight: normal;
+        margin-bottom: 50px;
+        letter-spacing: 0.03em;
+    }
+
+    > p {
+        margin-bottom: 50px;
+    }
+}
+
+.recruit_btn {
+    width: 30%;
+
+    a {
+        font-weight: bold;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 20px;
+        padding-bottom: 10px;
+        border-bottom: 1px solid var(--light-blue);
+        transition: ease .3s;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+
+        &:hover {
+            color: var(--white);
+            background-color: var(--light-blue);
+            padding: 15px;
+        }
+    }
+}
+
+.recruit_img {
+    position: relative;
+    width: 50%;
+
+    .recruit_mens {
+        position: absolute;
+        z-index: 10;
+    }
+
+    .recruit_woman {
+        position: absolute;
+        top: 100px;
+        right: -70px;
+        z-index: 00;
+    }
+}
+
+
+
+/* -----------------------------------------ブログ */
+.blog_inner {
+    position: relative;
+}
+
+.blog_arrow {
+    position: absolute;
+    top: 120px;
+    right: 0;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+    p {
+        color: var(--blue);
+        font-family: var(--font-italiana);
+    }
+}
+
+.blog_container {
+    display: flex;
+    gap: 20px;
+    overflow: scroll;
+    scrollbar-width: none;
+}
+
+.blog_content {
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 300px;
+
+    img {
+        width: 300px;
+        height: 180px;
+        margin-bottom: 20px;
+    }
+}
+
+.blog_date_category {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 10px;
+
+    .category {
+        border: 1px solid var(--light-brack);
+        padding: 0 15px;
+        line-height: 1em;
+        height: fit-content;
+    }
+}
+
+.blog_group {
+    color: var(--light-brack);
+    letter-spacing: 0.02em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ---------------------------------------------------
+SP
+--------------------------------------------------- */
+@media screen and (max-width: 767px) {
+  .fv_wrapper {
+      margin-bottom: 50px;
+  }
+
+  .fv_back_img {
+      flex-direction: column-reverse;
+      height: 100%;
+
+      .blue_logo {
+          max-height: 713px;
+          height: 388px;
+          object-fit: cover;
+      }
+  }
+
+  .fv_inner {
+      h2 {
+          top: 50%;
+          left: 2%;
+          transform: translateY(-50%);
+      }
+  }
+
+  .fv_news_group {
+    bottom: 10%;
+
+      h3 {
+          width: 22%;
+      }
+  }
+
+  .fv_news_content {
+      gap: 10px;
+      width: 80%;
+
+      p {
+          text-align: left;
+          width: 100%;
+      }
+
+      img {
+          width: 20px;
+      }
+  }
+
+  .fv_news_date_thema {
+      flex-direction: column;
+      gap: 0;
+      width: 100%;
+  }
+
+  .fv_scroll {
+      left: -1%;
+
+      p {
+          font-size: 13px;
+
+          &::after {
+              top: 60px;
+          }
+      }
+  }
+
+
+
+  /* -----------------------------------------ビジョン */
+  .vision {
+      background-size: 280px 280px;
+      background-position: left center;
+  }
+
+  .vision_container {
+      height: 800px;
+
+      .meeting_img {
+          width: 90%;
+          height: 18%;
+      }
+
+      .woman_img {
+          width: 55%;
+          object-fit: contain;
+          position: absolute;
+          top: 90%;
+          left: 0;
+          transform: translateY(-90%);
+      }
+  }
+
+  .vision_content {
+      flex-direction: column;
+
+      h4 {
+          font-size: 21px;
+          width: 100%;
+          margin-bottom: 20px;
+      }
+
+      p {
+          width: 100%;
+      }
+  }
+
+
+  /* -----------------------------------------ミッション */
+  .mission {
+      background-size: 315px 315px;
+      background-position: center bottom;
+  }
+
+  .mission_container {
+      flex-direction: column;
+      gap: 20px;
+
+      img {
+          width: 80%;
+          margin-left: auto;
+          object-fit: contain;
+      }
+  }
+
+  .mission_content {
+      width: 100%;
+
+      h4 {
+          font-size: 21px;
+          margin-bottom: 20px;
+      }
+  }
+
+
+  /* -----------------------------------------サービス */
+  .service {
+      background-position: left bottom;
+      height: 950px;
+  }
+
+  .service_inner {
+      flex-direction: column;
+      margin-bottom: 50px;
+  }
+
+  .service_left {
+      width: 100%;
+  }
+
+  .service_content {
+      width: 100%;
+      margin-bottom: 20px;
+
+      h4 {
+          font-size: 21px;
+          margin-bottom: 20px;
+      }
+
+      p {
+          width: 100%;
+      }
+  }
+
+  .service_group {
+      position: relative;
+      width: 100%;
+      height: 630px;
+
+      .service_item {
+          width: 230px;
+          height: 230px;
+          padding-top: 0;
+          display: grid;
+          place-content: center;
+
+          h5 {
+              font-size: 16px;
+          }
+      }
+  }
+
+  .education {
+      top: 32%;
+      left: 50%;
+      transform: translateX(-50%);
+  }
+
+  .in_house {
+      top: 64%;
+      left: 50%;
+      transform: translateX(-50%);
+  }
+
+
+
+  /* -----------------------------------------リクルート */
+  .recruit {
+      height: 920px;
+      margin-bottom: 50px;
+  }
+
+  .recruit_container {
+      flex-direction: column;
+      gap: 20px;
+  }
+
+  .recruit_content {
+
+      h4 {
+          font-size: 21px;
+          margin-bottom: 20px;
+      }
+
+      > p {
+          margin-bottom: 20px;
+      }
+  }
+
+  .recruit_btn {
+      width: 50%;
+  }
+
+  .recruit_img {
+      position: relative;
+      width: 100%;
+
+      .recruit_mens {
+          width: 70%;
+          left: -50px;
+          object-fit: contain;
+      }
+
+      .recruit_woman {
+          width: 70%;
+          top: 50px;
+          right: -15px;
+          object-fit: contain;
+      }
+  }
+
+
+  /* -----------------------------------------ブログ */
+  .blog_arrow {
+      top: 50px;
+      right: 15px;
+  }
+
+  .blog_container {
+      display: flex;
+      gap: 20px;
+      overflow: scroll;
+      scrollbar-width: none;
+  }
+
+  .blog_content {
+      display: flex;
+      flex-direction: column;
+      flex: 0 0 300px;
+
+      img {
+          width: 300px;
+          height: 180px;
+          margin-bottom: 20px;
+      }
+
+  }
+
+  .blog_date_category {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+      margin-bottom: 10px;
+
+      .category {
+          border: 1px solid var(--light-black);
+          padding: 0 15px;
+          line-height: 1em;
+          height: fit-content;
+      }
+  }
+
+  .blog_group {
+      color: var(--light-black);
+      letter-spacing: 0.02em;
+  }
+}

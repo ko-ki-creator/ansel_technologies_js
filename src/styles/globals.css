@@ -1,0 +1,292 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "YuMincho", "Hiragino Kaku Gothic Pro", sans-serif;
+    color: #333;
+}
+
+.wrap {
+    overflow-x: hidden;
+}
+
+:root {
+    --black: #333;
+    --light-black: #666;
+    --white: #fff;
+    --blue: #3B72D0;
+    --light-blue: #4C82DF;
+    --gold: #AA9E1B;
+    --red: #DF4242;
+    --orange: #DF871C;
+
+    --font-yumincho: "YuMincho", serif;
+    --font-hiragino: "Hiragino Kaku Gothic Pro", sans-serif;
+    --font-italiana: "italiana", serif;
+    --font-futura: "Futura", sans-serif;
+    --font-noto: "Noto Sans JP", sans-serif;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    background: none;
+}
+
+a {
+    color: #444;
+    text-decoration: none;
+}
+
+.wrapper {
+    width: 100%;
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+.inner {
+    margin-bottom: 100px;
+}
+
+ul, li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    font-family: var(--font-hiragino);
+    line-height: 1.6em;
+}
+
+.pc {
+    display: block;
+}
+
+.sp {
+    display: none;
+}
+
+#course,
+#flow,
+#faq {
+    scroll-margin-top: 100px;
+}
+
+
+
+/* トップページ：セクションタイトル */
+.heading_btn {
+    display: flex;
+    gap: 20px;
+    width: fit-content;
+
+    a {
+        margin-top: 20px;
+        height: fit-content;
+        transition: ease .3s;
+
+
+        &:hover {
+            background-color: var(--blue);
+            border-radius: 15px;
+            fill: brightness(0) invert(1);
+        }
+    }
+}
+
+.heading {
+    margin-bottom: 50px;
+
+    h2 {
+        color: var(--blue);
+        font-size: 60px;
+        font-family: var(--font-italiana);
+        font-weight: normal;
+        letter-spacing: 0.02em;
+        line-height: 1.2em;
+    }
+
+    h3 {
+        font-size: 21px;
+        font-weight: normal;
+        letter-spacing: 0.03em;
+    }
+}
+
+
+/* 下層ページ：セクションタイトル */
+.p_heading {
+    margin-bottom: 50px;
+    text-align: center;
+    position: relative;
+
+    h2 {
+        color: var(--blue);
+        font-size: 60px;
+        font-family: var(--font-italiana);
+        font-weight: normal;
+        line-height: 1.2em;
+    }
+
+    h3 {
+        font-size: 21px;
+        font-weight: normal;
+    }
+
+    p {
+        margin-top: 20px;
+    }
+}
+
+.search_container input[type="text"] {
+    background-color: #EDEDED;
+    border: 1px solid #949494;
+    padding: 5px 10px;
+    font-family: var(--font-hiragino);
+    color: #A2A2A2;
+    position: absolute;
+    top: 50%;
+    right: 0;
+}
+
+/* -----------------------------------------ページビジュアル */
+.page_inner {
+    position: relative;
+    height: 690px;
+    margin-bottom: 100px;
+
+    h2 {
+        color: var(--white);
+        font-size: clamp(1.875rem, 0.555rem + 5.63vw, 5.625rem);
+        font-weight: normal;
+        letter-spacing: 0.1em;
+        text-shadow: 2px 2px 5px rgba(121, 139, 165, 1);
+        position: absolute;
+        top: 50%;
+        left: 10%;
+        transform: translateY(-50%);
+        z-index: 30;
+    }
+
+    h3 {
+        color: #E0DEC7;
+        font-size: clamp(3.75rem, 0.229rem + 15.02vw, 13.75rem);
+        font-weight: normal;
+        font-family: var(--font-italiana);
+        letter-spacing: 0.1em;
+        position: absolute;
+        bottom: -110px;
+        z-index: 30;
+    }
+}
+
+.page_back {
+    position: relative;
+    height: 690px;
+
+    .page-visual-logo {
+        position: absolute;
+        top: -100px;
+        left: 0;
+        z-index: 20;
+    }
+
+    .page_img {
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: 10;
+        height: fit-content;
+    }
+}
+
+
+
+/* ---------------------------------------------------
+SP
+--------------------------------------------------- */
+@media screen and (max-width: 767px) {
+  .inner {
+      margin-bottom: 50px;
+      padding: 0 15px;
+  }
+
+  .pc {
+      display: none;
+  }
+
+  .sp {
+      display: block;
+  }
+
+
+  /* セクションタイトル */
+  .heading {
+      margin-bottom: 20px;
+
+      h2 {
+          font-size: 36px;
+      }
+
+      h3 {
+          font-size: 16px;
+      }
+  }
+
+
+  /* 下層ページ：セクションタイトル */
+  .p_heading {
+      h2 {
+          font-size: 36px;
+      }
+
+      h3 {
+          font-size: 16px;
+      }
+
+      p {
+          text-align: left;
+      }
+  }
+
+  .search_container input[type="text"] {
+      display: none;
+  }
+
+
+    /* -----------------------------------------ページビジュアル */
+    .page_inner {
+        height: 240px;
+
+        h2 {
+            font-weight: normal;
+            top: 60%;
+            left: 5%;
+            transform: translateY(-60%);
+            z-index: 30;
+        }
+
+        h3 {
+            bottom: -15px;
+            z-index: 30;
+        }
+    }
+
+    .page_back {
+        height: 240px;
+
+        .page_visual_logo {
+            top: -100px;
+            z-index: 0;
+            width: 60%;
+            height: fit-content;
+        }
+
+        .page_img {
+            width: 95%;
+            height: fit-content;
+        }
+    }
+}

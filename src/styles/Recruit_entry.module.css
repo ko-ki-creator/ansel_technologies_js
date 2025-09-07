@@ -1,0 +1,32 @@
+.file_upload {
+    font-size: 24px;
+    font-weight: normal;
+    font-family: var(--font-hiragino);
+    letter-spacing: 0.05em;
+    margin-bottom: 20px;
+}
+
+.file_txt {
+    margin-bottom: 20px;
+}
+
+.no_requied {
+    width: 20%;
+    padding-top: 7px;
+    letter-spacing: 0.05em;
+}
+
+.form_file {
+    width: 100%;
+    color: #ABABAB;
+    font-family: var(--font-hiragino);
+
+    &::file-selector-button {
+        width: 200px;
+        height: 55px;
+        color: #ABABAB;
+        border-radius: 5px;
+        border: 1px solid #616161;
+        margin-right: 20px;
+    }
+}

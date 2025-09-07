@@ -1,0 +1,77 @@
+.slide_img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* スライダー矢印 */
+.sliderWrapper :global(.splide__arrow) {
+    background: var(--white); /* 背景色 */
+    border-radius: 50%;         /* 丸ボタン */
+    width: 40px;
+    height: 40px;
+    border: 1px solid var(--blue);
+}
+
+.sliderWrapper :global(.splide__arrow svg) {
+    fill: var(--blue); /* 矢印アイコンの色 */
+    width: 15px;
+    height: 15px;
+}
+
+.sliderWrapper :global(.splide__arrow--prev) {
+    left: -90px; /* 左に少し外す */
+}
+
+.sliderWrapper :global(.splide__arrow--next) {
+    right: -90px; /* 右に少し外す */
+}
+
+/* ページネーション全体 */
+.sliderWrapper :global(.splide__pagination) {
+    gap: 20px; /* 👈 ドットの間隔を広げる */
+}
+
+/* ドット（未選択） */
+.sliderWrapper :global(.splide__pagination__page) {
+    width: 20px;
+    height: 20px;
+    background: #d9d9d9;
+    border-radius: 50%;
+    opacity: 0.7;
+    transition: all 0.3s ease;
+    bottom: -75px;
+}
+
+/* ドット（選択中） */
+.sliderWrapper :global(.splide__pagination__page.is-active) {
+    background: var(--blue);
+    transform: scale(1.1);
+    opacity: 1;
+}
+
+
+
+
+
+/* ---------------------------------------------------
+SP
+--------------------------------------------------- */
+@media screen and (max-width: 767px) {
+    .sliderWrapper :global(.splide__arrow) {
+        display: none;
+    }
+
+    /* ページネーション全体 */
+    .sliderWrapper :global(.splide__pagination) {
+        gap: 10px;
+    }
+
+    /* ドット（未選択） */
+    .sliderWrapper :global(.splide__pagination__page) {
+        width: 10px;
+        height: 10px;
+        bottom: -45px;
+    }
+}
