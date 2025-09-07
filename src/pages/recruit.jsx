@@ -190,6 +190,10 @@ export default function Recruit() {
             <section>
                 <div className="wrapper">
                     <div className="inner">
+                        <div className="p_heading">
+                            <h2>Payroll</h2>
+                            <h3>想定給与表</h3>
+                        </div>
                         <table className={styles.payroll_table}>
                             <tbody>
                                 <tr>
@@ -478,288 +482,288 @@ export default function Recruit() {
                                         <td className={styles.institution}>IPA情報処理推進機構</td>
                                         <td className={styles.certification_name}>基本情報技術者</td>
                                         <td></td>
-                                        <td>5,000</td>
-                                        <td>7,500</td>
+                                        <td className={styles.certification_item}>5,000</td>
+                                        <td className={styles.certification_item}>7,500</td>
                                     </tr>
                                     <tr>
                                         <td></td>
                                         <td className={styles.certification_name}>応用情報技術者</td>
                                         <td></td>
-                                        <td>10,000</td>
-                                        <td>7,500</td>
+                                        <td className={styles.certification_item}>10,000</td>
+                                        <td className={styles.certification_item}>7,500</td>
                                     </tr>
                                     <tr>
                                         <td></td>
                                         <td className={styles.certification_name}>ITストラテジスト</td>
-                                        <td>30,000</td>
-                                        <td>120,000</td>
-                                        <td>5,700</td>
+                                        <td className={styles.certification_item}>30,000</td>
+                                        <td className={styles.certification_item}>120,000</td>
+                                        <td className={styles.certification_item}>5,700</td>
                                     </tr>
                                     <tr>
                                         <td></td>
                                         <td className={styles.certification_name}>システムアーキテクト</td>
-                                        <td>20,000</td>
-                                        <td>120,000</td>
-                                        <td>5,700</td>
+                                        <td className={styles.certification_item}>20,000</td>
+                                        <td className={styles.certification_item}>120,000</td>
+                                        <td className={styles.certification_item}>5,700</td>
                                     </tr>
                                     <tr>
                                         <td></td>
                                         <td className={styles.certification_name}>プロジェクトマネージャー</td>
-                                        <td>20,000</td>
-                                        <td>120,000</td>
-                                        <td>5,700</td>
+                                        <td className={styles.certification_item}>20,000</td>
+                                        <td className={styles.certification_item}>120,000</td>
+                                        <td className={styles.certification_item}>5,700</td>
                                     </tr>
                                     <tr>
                                         <td className={styles.institution}>Oracle</td>
                                         <td className={styles.certification_name}>Oracle Certified Java Programmer, silver</td>
-                                        <td>5,000</td>
-                                        <td>30,000</td>
-                                        <td>32,340</td>
+                                        <td className={styles.certification_item}>5,000</td>
+                                        <td className={styles.certification_item}>30,000</td>
+                                        <td className={styles.certification_item}>32,340</td>
                                     </tr>
                                     <tr>
                                         <td></td>
                                         <td className={styles.certification_name}>Oracle Certified Java Programmer, gold</td>
-                                        <td>10,000</td>
-                                        <td>100,000</td>
-                                        <td>32,340</td>
+                                        <td className={styles.certification_item}>10,000</td>
+                                        <td className={styles.certification_item}>100,000</td>
+                                        <td className={styles.certification_item}>32,340</td>
                                     </tr>
                                     <tr>
                                         <td className={styles.institution}>LPI-inc</td>
                                         <td className={styles.certification_name}>LPIC-1 101</td>
                                         <td></td>
-                                        <td>¥10,000</td>
-                                        <td>$141,22</td>
+                                        <td className={styles.certification_item}>¥10,000</td>
+                                        <td className={styles.certification_item}>$141,22</td>
                                     </tr>
                                     <tr>
                                         <td></td>
                                         <td className={styles.certification_name}>LPIC-1 102</td>
                                         <td></td>
-                                        <td>¥10,000</td>
-                                        <td>$141,22</td>
+                                        <td className={styles.certification_item}>¥10,000</td>
+                                        <td className={styles.certification_item}>$141,22</td>
                                     </tr>
                                     <tr>
                                         <td></td>
                                         <td className={styles.certification_name}>LPIC-2 201</td>
                                         <td></td>
-                                        <td>¥10,000</td>
-                                        <td>$141,22</td>
+                                        <td className={styles.certification_item}>¥10,000</td>
+                                        <td className={styles.certification_item}>$141,22</td>
                                     </tr>
                                     <tr>
                                         <td></td>
                                         <td className={styles.certification_name}>LPIC-2 202</td>
                                         <td></td>
-                                        <td>¥10,000</td>
-                                        <td>$141,22</td>
+                                        <td className={styles.certification_item}>¥10,000</td>
+                                        <td className={styles.certification_item}>$141,22</td>
                                     </tr>
                                     <tr>
                                         <td></td>
                                         <td className={styles.certification_name}>LPIC-3 300</td>
                                         <td></td>
-                                        <td>¥10,000</td>
-                                        <td>$141,22</td>
+                                        <td className={styles.certification_item}>¥10,000</td>
+                                        <td className={styles.certification_item}>$141,22</td>
                                     </tr>
                                     <tr>
                                         <td></td>
                                         <td className={styles.certification_name}>LPIC-3 303</td>
                                         <td></td>
-                                        <td>¥10,000</td>
-                                        <td>$141,22</td>
+                                        <td className={styles.certification_item}>¥10,000</td>
+                                        <td className={styles.certification_item}>$141,22</td>
                                     </tr>
                                     <tr>
                                         <td></td>
                                         <td className={styles.certification_name}>LPIC-3 304</td>
                                         <td></td>
-                                        <td>¥10,000</td>
-                                        <td>$141,22</td>
+                                        <td className={styles.certification_item}>¥10,000</td>
+                                        <td className={styles.certification_item}>$141,22</td>
                                     </tr>
                                     <tr>
                                         <td className={styles.institution}>Cisco</td>
                                         <td className={styles.certification_name}>CCNA8種 CCDA共通</td>
-                                        <td>¥5,000</td>
-                                        <td>¥10,000</td>
-                                        <td>¥39,000</td>
+                                        <td className={styles.certification_item}>¥5,000</td>
+                                        <td className={styles.certification_item}>¥10,000</td>
+                                        <td className={styles.certification_item}>¥39,000</td>
                                     </tr>
                                     <tr>
                                         <td></td>
                                         <td className={styles.certification_name}>ICND1</td>
                                         <td></td>
-                                        <td>¥10,000</td>
-                                        <td>¥19,800</td>
+                                        <td className={styles.certification_item}>¥10,000</td>
+                                        <td className={styles.certification_item}>¥19,800</td>
                                     </tr>
                                     <tr>
                                         <td></td>
                                         <td className={styles.certification_name}>ICNS2</td>
                                         <td></td>
-                                        <td>¥10,000</td>
-                                        <td>¥19,800</td>
+                                        <td className={styles.certification_item}>¥10,000</td>
+                                        <td className={styles.certification_item}>¥19,800</td>
                                     </tr>
                                     <tr>
                                         <td></td>
                                         <td className={styles.certification_name}>CCNP7種 CCDP共通</td>
-                                        <td>¥5,000</td>
-                                        <td>¥10,000</td>
-                                        <td>¥36,000</td>
+                                        <td className={styles.certification_item}>¥5,000</td>
+                                        <td className={styles.certification_item}>¥10,000</td>
+                                        <td className={styles.certification_item}>¥36,000</td>
                                     </tr>
                                     <tr>
                                         <td className={styles.institution}>Microsoft</td>
                                         <td className={styles.certification_name}>Azure Fundamentals(AZ-900)</td>
                                         <td></td>
-                                        <td>¥10,000</td>
-                                        <td>¥12,500</td>
+                                        <td className={styles.certification_item}>¥10,000</td>
+                                        <td className={styles.certification_item}>¥12,500</td>
                                     </tr>
                                     <tr>
                                         <td className={styles.institution}>Google</td>
                                         <td className={styles.certification_name}>Google Cloud Certified Associate Cloud Engineer</td>
                                         <td></td>
-                                        <td>¥10,000</td>
-                                        <td>$125</td>
+                                        <td className={styles.certification_item}>¥10,000</td>
+                                        <td className={styles.certification_item}>$125</td>
                                     </tr>
                                     <tr>
                                         <td></td>
                                         <td className={styles.certification_name}>Google Cloud Certified Professional Cloud Architect</td>
                                         <td></td>
-                                        <td>¥20,000</td>
-                                        <td>$200</td>
+                                        <td className={styles.certification_item}>¥20,000</td>
+                                        <td className={styles.certification_item}>$200</td>
                                     </tr>
                                     <tr>
                                         <td></td>
                                         <td className={styles.certification_name}>Google Cloud Certified Associate Cloud Developer</td>
                                         <td></td>
-                                        <td>¥20,000</td>
-                                        <td>$200</td>
+                                        <td className={styles.certification_item}>¥20,000</td>
+                                        <td className={styles.certification_item}>$200</td>
                                     </tr>
                                     <tr>
                                         <td className={styles.institution}>AWS</td>
                                         <td className={styles.certification_name}>AWS Certified Cloud Practitioner</td>
                                         <td></td>
-                                        <td>¥10,000</td>
-                                        <td>¥11,000</td>
+                                        <td className={styles.certification_item}>¥10,000</td>
+                                        <td className={styles.certification_item}>¥11,000</td>
                                     </tr>
                                     <tr>
                                         <td></td>
                                         <td className={styles.certification_name}>AWS Certified Associate Solution Architect</td>
                                         <td></td>
-                                        <td>¥20,000</td>
-                                        <td>¥15,000</td>
+                                        <td className={styles.certification_item}>¥20,000</td>
+                                        <td className={styles.certification_item}>¥15,000</td>
                                     </tr>
                                     <tr>
                                         <td></td>
                                         <td className={styles.certification_name}>AWS Certified SisOps Administrator</td>
                                         <td></td>
-                                        <td>¥20,000</td>
-                                        <td>¥15,000</td>
+                                        <td className={styles.certification_item}>¥20,000</td>
+                                        <td className={styles.certification_item}>¥15,000</td>
                                     </tr>
                                     <tr>
                                         <td></td>
                                         <td className={styles.certification_name}>AWS Certified Associate Developer</td>
                                         <td></td>
-                                        <td>¥20,000</td>
-                                        <td>¥15,000</td>
+                                        <td className={styles.certification_item}>¥20,000</td>
+                                        <td className={styles.certification_item}>¥15,000</td>
                                     </tr>
                                     <tr>
                                         <td></td>
                                         <td className={styles.certification_name}>AWS Certified Professional Solution Architect</td>
-                                        <td>¥10,000</td>
-                                        <td>¥50,000</td>
-                                        <td>¥30,000</td>
+                                        <td className={styles.certification_item}>¥10,000</td>
+                                        <td className={styles.certification_item}>¥50,000</td>
+                                        <td className={styles.certification_item}>¥30,000</td>
                                     </tr>
                                     <tr>
                                         <td></td>
                                         <td className={styles.certification_name}>AWS Certified Professional DevOps Engineer</td>
-                                        <td>¥10,000</td>
-                                        <td>¥50,000</td>
-                                        <td>¥30,000</td>
+                                        <td className={styles.certification_item}>¥10,000</td>
+                                        <td className={styles.certification_item}>¥50,000</td>
+                                        <td className={styles.certification_item}>¥30,000</td>
                                     </tr>
                                     <tr>
                                         <td></td>
                                         <td className={styles.certification_name}>AWS Certified Specialty Advanced Networking</td>
                                         <td></td>
-                                        <td>¥20,000</td>
-                                        <td>¥30,000</td>
+                                        <td className={styles.certification_item}>¥20,000</td>
+                                        <td className={styles.certification_item}>¥30,000</td>
                                     </tr>
                                     <tr>
                                         <td></td>
                                         <td className={styles.certification_name}>AWS Certified Specialty Security</td>
                                         <td></td>
-                                        <td>¥20,000</td>
-                                        <td>¥30,000</td>
+                                        <td className={styles.certification_item}>¥20,000</td>
+                                        <td className={styles.certification_item}>¥30,000</td>
                                     </tr>
                                     <tr>
                                         <td></td>
                                         <td className={styles.certification_name}>AWS Certified Specialty Machine Lerning</td>
                                         <td></td>
-                                        <td>¥20,000</td>
-                                        <td>¥30,000</td>
+                                        <td className={styles.certification_item}>¥20,000</td>
+                                        <td className={styles.certification_item}>¥30,000</td>
                                     </tr>
                                     <tr>
                                         <td></td>
                                         <td className={styles.certification_name}>AWS Certified Specialty Data Analytics</td>
                                         <td></td>
-                                        <td>¥20,000</td>
-                                        <td>¥30,000</td>
+                                        <td className={styles.certification_item}>¥20,000</td>
+                                        <td className={styles.certification_item}>¥30,000</td>
                                     </tr>
                                     <tr>
                                         <td></td>
                                         <td className={styles.certification_name}>AWS Certified Specialty Database</td>
                                         <td></td>
-                                        <td>¥20,000</td>
-                                        <td>¥30,000</td>
+                                        <td className={styles.certification_item}>¥20,000</td>
+                                        <td className={styles.certification_item}>¥30,000</td>
                                     </tr>
                                     <tr>
                                         <td className={styles.institution}>PMI</td>
                                         <td className={styles.certification_name}>PMP(Project Management Professional)</td>
-                                        <td>¥20,000</td>
-                                        <td>¥100,000</td>
-                                        <td>$405</td>
+                                        <td className={styles.certification_item}>¥20,000</td>
+                                        <td className={styles.certification_item}>¥100,000</td>
+                                        <td className={styles.certification_item}>$405</td>
                                     </tr>
                                     <tr>
                                         <td className={styles.institution}>JSTQB</td>
                                         <td className={styles.certification_name}>JSTQB認定テスト技術者 Foundation Level</td>
                                         <td></td>
-                                        <td>¥10,000</td>
-                                        <td>¥20,000</td>
+                                        <td className={styles.certification_item}>¥10,000</td>
+                                        <td className={styles.certification_item}>¥20,000</td>
                                     </tr>
                                     <tr>
                                         <td></td>
                                         <td className={styles.certification_name}>JSTQB認定テスト技術者 Advanced Level</td>
                                         <td></td>
-                                        <td>¥10,000</td>
-                                        <td>¥20,000</td>
+                                        <td className={styles.certification_item}>¥10,000</td>
+                                        <td className={styles.certification_item}>¥20,000</td>
                                     </tr>
                                     <tr>
                                         <td className={styles.institution}>Salesforce</td>
                                         <td className={styles.certification_name}>Salesforce認定 アドミニストレーター</td>
                                         <td></td>
-                                        <td>¥5,000</td>
-                                        <td>¥20,000</td>
+                                        <td className={styles.certification_item}>¥5,000</td>
+                                        <td className={styles.certification_item}>¥20,000</td>
                                     </tr>
                                     <tr>
                                         <td></td>
                                         <td className={styles.certification_name}>Salesforce認定 上級アドミニストレーター</td>
-                                        <td>¥5,000</td>
-                                        <td>¥30,000</td>
-                                        <td>¥20,000</td>
+                                        <td className={styles.certification_item}>¥5,000</td>
+                                        <td className={styles.certification_item}>¥30,000</td>
+                                        <td className={styles.certification_item}>¥20,000</td>
                                     </tr>
                                     <tr>
                                         <td></td>
                                         <td className={styles.certification_name}>Salesforce認定 Service Cloudコンサルタント</td>
-                                        <td>¥10,000</td>
-                                        <td>¥30,000</td>
-                                        <td>¥20,000</td>
+                                        <td className={styles.certification_item}>¥10,000</td>
+                                        <td className={styles.certification_item}>¥30,000</td>
+                                        <td className={styles.certification_item}>¥20,000</td>
                                     </tr>
                                     <tr>
                                         <td></td>
                                         <td className={styles.certification_name}>Salesforce認定 Platform アプリケーションビルダー</td>
-                                        <td>¥10,000</td>
-                                        <td>¥30,000</td>
-                                        <td>¥20,000</td>
+                                        <td className={styles.certification_item}>¥10,000</td>
+                                        <td className={styles.certification_item}>¥30,000</td>
+                                        <td className={styles.certification_item}>¥20,000</td>
                                     </tr>
                                     <tr>
                                         <td className={styles.institution}>Servicenow</td>
                                         <td className={styles.certification_name}>CSA</td>
                                         <td></td>
-                                        <td>¥10,000</td>
-                                        <td>¥12,000</td>
+                                        <td className={styles.certification_item}>¥10,000</td>
+                                        <td className={styles.certification_item}>¥12,000</td>
                                     </tr>
                                 </table>
                             </div>

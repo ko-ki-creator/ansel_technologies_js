@@ -338,7 +338,10 @@
     border: 1px solid var(--light-black);
 }
 
-
+.certification_item {
+    text-align: end;
+    padding-right: 15px;
+}
 
 
 
