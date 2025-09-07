@@ -1,4 +1,4 @@
-const { ArticleCard } = require("./components/Blog/Blog");
+import { ArticleCard } from "../pages/components/Blog/Blog";
 import styles from "../styles/Blogpage.module.css";
 // import fs from "fs";
 

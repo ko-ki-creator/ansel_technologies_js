@@ -43,21 +43,18 @@
     margin-bottom: 50px;
     display: flex;
     align-items: center;
+    position: relative;
 
-    &::before,
     &::after {
         content: '';
-        height: 3px;
-        flex-grow: 1;
-        background-color: var(--black);
-    }
-
-    &::before {
-        margin-right: 20px;
-    }
-
-    &::after {
-        margin-left: 20px;
+        background-image: url(/images/arrow-icon/line-arrow.png);
+        background-repeat: no-repeat;
+        width: 1080px;
+        height: 5px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
     }
 }
 
