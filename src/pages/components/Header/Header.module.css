@@ -407,7 +407,7 @@
 
         &::after {
             content: '';
-            background-image: url(/images/sp-arrow.svg);
+            background-image: url(/images/arrow-icon/sp-arrow.svg);
             background-repeat: no-repeat;
             width: 20px;
             height: 15px;
