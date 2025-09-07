@@ -34,7 +34,7 @@ export default function Company() {
             <section>
                 <div className="wrapper">
                     <div className="inner">
-                        <div className="p_service_container">
+                        <div className={styles.p_service_container}>
                             <div className={styles.p_service_content}>
                                 <Image
                                     src="/images/service/service-solution1.png"

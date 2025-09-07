@@ -3,6 +3,35 @@
 ----------------------------------------- */
 
 /* -----------------------------------------コンテナ */
+.p_service_container {
+    position: relative;
+
+    &::before {
+        content: '';
+        background-image: url(/images/blue-circle.png);
+        background-repeat: no-repeat;
+        width: 657px;
+        height: 570px;
+        position: absolute;
+        top: 15%;
+        right: -45%;
+        z-index: -1;
+    }
+
+    &::after {
+        content: '';
+        background-image: url(/images/blue-circle.png);
+        background-repeat: no-repeat;
+        width: 657px;
+        height: 570px;
+        position: absolute;
+        bottom: -10%;
+        left: -45%;
+        z-index: -1;
+        transform: rotate(180deg);
+    }
+}
+
 .p_service_content {
     display: flex;
     gap: 50px;
