@@ -1,9 +1,11 @@
 import Image from "next/image";
 import styles from "../styles/Academy.module.css";
+import Link from "next/link";
+// import { difference } from "next/dist/build/utils";
 
 export default function Academy() {
     return(
-        <main>
+        <main className="wrap">
             {/* ページビジュアル */}
             <section className="page_visual">
                 <div className="page_wrapper">
@@ -310,7 +312,7 @@ export default function Academy() {
                                 height={7}
                             />
                         </div>
-                        <div>
+                        <div className={styles.difference_content}>
                             <table className={styles.myTable}>
                                 <tbody>
                                     <tr>
@@ -424,7 +426,7 @@ export default function Academy() {
                                 ハイレベルなプログラミングスクールを提供しています。<br />
                                 スクール受講中は、IT系資格取得代を全額補助！
                             </p>
-                            <a href="#" className={styles.counseling_cta}>
+                            <Link href="/service_counseling" className={styles.counseling_cta}>
                                 <p>無料カウンセリングに申込む</p>
                                 <Image
                                     src="/images/arrow-icon/counseling-cta-arrow.svg"
@@ -432,7 +434,7 @@ export default function Academy() {
                                     width={20}
                                     height={20}
                                 />
-                            </a>
+                            </Link>
                         </div>
                     </div>
                 </div>

@@ -141,11 +141,21 @@
     display: none;
 }
 
+.difference_content {
+    overflow: scroll;
+
+    &::-webkit-scrollbar {
+        display: none;
+    }
+}
+
 .myTable {
     border-collapse: collapse;
     text-align: center;
-    width: 100%;
     font-family: var(--font-hiragino);
+    width: 810px;
+    margin: 0 auto;
+    white-space: nowrap;
 
     th, td {
         border: 1px solid #B3B3B3;
@@ -269,6 +279,10 @@
     gap: 15px;
     align-items: center;
     width: 50%;
+
+    img {
+        object-fit: cover;
+    }
 
     h4 {
         color: var(--white);
@@ -442,6 +456,7 @@ SP
 
         img {
             width: 30%;
+            object-fit: contain;
         }
 
         h4 {
