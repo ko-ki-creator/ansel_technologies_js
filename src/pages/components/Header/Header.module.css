@@ -299,7 +299,7 @@
     transition: ease .5s;
     z-index: 98;
     /* overflow-y: scroll; */
-    /* padding-left: 15px; */
+    padding-left: 15px;
 
     .header-contact-btn-sp {
         width: 180px;
@@ -360,7 +360,7 @@
 
 .nav_item_sp > a::after {
     content: '';
-    /* background-image: url(/images/arrow-icon/sp-arrow.svg); */
+    background-image: url(/images/arrow-icon/sp-arrow.svg);
     background-repeat: no-repeat;
     width: 20px;
     height: 15px;
@@ -372,7 +372,7 @@
 
 .nav_item_sp > button::after {
     content: '';
-    /* background-image: url(/images/navbar/nav-plus.svg); */
+    background-image: url(/images/navbar/nav-plus.svg);
     background-repeat: no-repeat;
     width: 20px;
     height: 15px;
@@ -388,9 +388,9 @@
     overflow: hidden;
 }
 
-/* .dropDown_list_sp.active {
+.dropDown_list_sp.active {
     display: block;
-} */
+}
 
 .dropDown_item_sp {
 
