@@ -55,12 +55,12 @@ export default function Company() {
                                 <div className={styles.p_service_group}>
                                     <div className={styles.p_service_ttl}>
                                         <h2>エンジニア教育事業</h2>
-                                        <a href="">
+                                        <a href="/academy">
                                             <Image
                                                 src="/images/arrow-icon/arrow-blue.svg"
                                                 alt=""
-                                                width={30}
-                                                height={30}
+                                                width={60}
+                                                height={60}
                                             />
                                         </a>
                                     </div>

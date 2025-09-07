@@ -312,41 +312,43 @@ export default function Academy() {
                         </div>
                         <div>
                             <table className={styles.myTable}>
-                                <tr>
-                                    <th className={styles.th_space}></th>
-                                    <th className={styles.ansel}>Ansel</th>
-                                    <th className={styles.head}>A社</th>
-                                    <th className={styles.head}>B社</th>
-                                    <th className={styles.head}>C社</th>
-                                </tr>
-                                <tr>
-                                    <td className={styles.column}>期間</td>
-                                    <td className={styles.ansel_item}>6ヶ月〜</td>
-                                    <td>1ヶ月</td>
-                                    <td>1,4,6ヶ月</td>
-                                    <td>3ヶ月</td>
-                                </tr>
-                                <tr>
-                                    <td className={styles.column}>担当講師</td>
-                                    <td className={styles.ansel_item}>審査に通過した<br />現役のエンジニア</td>
-                                    <td>なし</td>
-                                    <td>非公開</td>
-                                    <td>エンジニア</td>
-                                </tr>
-                                <tr>
-                                    <td className={styles.column}>価格</td>
-                                    <td className={styles.ansel_item}>498,000円〜</td>
-                                    <td>3,900円〜</td>
-                                    <td>29,800円〜</td>
-                                    <td>80,000円〜</td>
-                                </tr>
-                                <tr>
-                                    <td className={styles.column}>学習難易度</td>
-                                    <td className={styles.ansel_item}>高い</td>
-                                    <td>低い</td>
-                                    <td>一般的</td>
-                                    <td>一般的</td>
-                                </tr>
+                                <tbody>
+                                    <tr>
+                                        <th className={styles.th_space}></th>
+                                        <th className={styles.ansel}>Ansel</th>
+                                        <th className={styles.head}>A社</th>
+                                        <th className={styles.head}>B社</th>
+                                        <th className={styles.head}>C社</th>
+                                    </tr>
+                                    <tr>
+                                        <td className={styles.column}>期間</td>
+                                        <td className={styles.ansel_item}>6ヶ月〜</td>
+                                        <td>1ヶ月</td>
+                                        <td>1,4,6ヶ月</td>
+                                        <td>3ヶ月</td>
+                                    </tr>
+                                    <tr>
+                                        <td className={styles.column}>担当講師</td>
+                                        <td className={styles.ansel_item}>審査に通過した<br />現役のエンジニア</td>
+                                        <td>なし</td>
+                                        <td>非公開</td>
+                                        <td>エンジニア</td>
+                                    </tr>
+                                    <tr>
+                                        <td className={styles.column}>価格</td>
+                                        <td className={styles.ansel_item}>498,000円〜</td>
+                                        <td>3,900円〜</td>
+                                        <td>29,800円〜</td>
+                                        <td>80,000円〜</td>
+                                    </tr>
+                                    <tr>
+                                        <td className={styles.column}>学習難易度</td>
+                                        <td className={styles.ansel_item}>高い</td>
+                                        <td>低い</td>
+                                        <td>一般的</td>
+                                        <td>一般的</td>
+                                    </tr>
+                                </tbody>
                             </table>
                         </div>
                     </div>
