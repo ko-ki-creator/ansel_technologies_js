@@ -7,6 +7,19 @@
     display: flex;
     gap: 20px;
     justify-content: space-between;
+    position: relative;
+
+    &::after {
+        content: '';
+        background-image: url(/images/blue-circle.png);
+        background-repeat: no-repeat;
+        width: 657px;
+        height: 570px;
+        position: absolute;
+        bottom: -100%;
+        right: -45%;
+        z-index: -1;
+    }
 }
 
 .feature_content {
@@ -22,6 +35,23 @@
 
 
 /* -----------------------------------------カリキュラム */
+.curriculum_container {
+    position: relative;
+
+    &::after {
+        content: '';
+        background-image: url(/images/blue-circle.png);
+        background-repeat: no-repeat;
+        width: 657px;
+        height: 570px;
+        position: absolute;
+        top: 0;
+        left: -45%;
+        z-index: -1;
+        transform: rotate(180deg);
+    }
+}
+
 .curriculum_content {
     display: flex;
     align-items: center;
@@ -64,6 +94,19 @@
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
+    position: relative;
+
+    &::after {
+        content: '';
+        background-image: url(/images/blue-circle.png);
+        background-repeat: no-repeat;
+        width: 657px;
+        height: 570px;
+        position: absolute;
+        bottom: 20%;
+        right: -45%;
+        z-index: -1;
+    }
 }
 
 .voice_content {
@@ -146,6 +189,20 @@
     width: 100%;
     max-width: 600px;
     margin: 0 auto;
+    position: relative;
+
+    &::after {
+        content: '';
+        background-image: url(/images/blue-circle.png);
+        background-repeat: no-repeat;
+        width: 657px;
+        height: 570px;
+        position: absolute;
+        top: -20%;
+        left: -100%;
+        z-index: -1;
+        transform: rotate(180deg);
+    }
 }
 
 .flow_content {

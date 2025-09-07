@@ -91,7 +91,7 @@ export default function Academy() {
                                 活躍できる高い技術の獲得を目指し、<br />Ansel Tech Academyは長く難しいカリキュラムを用意しています。
                             </p>
                         </div>
-                        <div>
+                        <div className={styles.curriculum_container}>
                             <div className={styles.curriculum_content}>
                                 <div className={styles.curriculum_group}>
                                     <h2>フロントエンド入門</h2>
