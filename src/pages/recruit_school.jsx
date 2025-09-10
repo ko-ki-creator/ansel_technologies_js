@@ -1,5 +1,5 @@
 import Image from "next/image";
-import styles from "../styles/Recruit_experienced.module.css";
+import styles from "../styles/Recruit_school.module.css";
 import academyStyles from "../styles/Academy.module.css";
 import serviceStyles from "../styles/Service.module.css";
 import Link from "next/link";
