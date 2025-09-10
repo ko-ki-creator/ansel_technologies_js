@@ -2,6 +2,7 @@ import Image from "next/image";
 import styles from "../styles/Recruit_experienced.module.css";
 import academyStyles from "../styles/Academy.module.css";
 import serviceStyles from "../styles/Service.module.css";
+import Link from "next/link";
 
 export default function RecruitSchool() {
     return(
@@ -370,7 +371,7 @@ export default function RecruitSchool() {
                                 <p className={academyStyles.no_border}>最終面接を通過された方には、内定のご連絡をいたします。条件面の調整や入社手続きを進め、ご入社に向けた準備をサポートいたします。</p>
                             </div>
                             <div className={styles.flow_submit_btn}>
-                                <a href="">エントリーする</a>
+                                <Link href="/recruit_entry">エントリーする</Link>
                             </div>
                         </div>
                     </div>

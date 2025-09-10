@@ -104,7 +104,7 @@ export default function CounselingForm() {
                                 </div>
                                 <div className={styles.form_content}>
                                     <p className={styles.requied}>ご希望内容</p>
-                                    <div className={styles.form_hope}>
+                                    <lable className={styles.form_hope}>
                                         {hopeOptions.map((option, idx) => (
                                             <label key={option} className={styles.check_item}>
                                                 <input
@@ -129,7 +129,7 @@ export default function CounselingForm() {
                                         {errors.hope && (
                                             <p className={styles.form_error}>{errors.hope.message}</p>
                                         )}
-                                    </div>
+                                    </lable>
                                 </div>
                                 <div className={styles.form_content}>
                                     <p className={styles.requied}>お問い合わせ内容</p>

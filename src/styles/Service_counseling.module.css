@@ -136,7 +136,9 @@
 .form_email,
 .form_tel,
 .form_hope,
-.form_textarea {
+.form_textarea,
+.form_company,
+.form_furigana {
     display: flex;
     flex-direction: column;
     width: 40%;
