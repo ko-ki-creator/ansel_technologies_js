@@ -327,4 +327,11 @@
             }
         }
     }
+
+    .study_period {
+
+        &::after {
+            top: 75%;
+        }
+    }
 }
