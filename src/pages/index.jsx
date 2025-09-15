@@ -302,7 +302,7 @@ export default function Home() {
                                         </p>
                                     </div>
                                 </Link>
-                                <a href="/blog-page" className={styles.blog_content}>
+                                <Link href="/blog-page" className={styles.blog_content}>
                                     <Image
                                         src="/images/blog/blog2.png"
                                         alt="Anselの学習支援制度について"
@@ -318,8 +318,8 @@ export default function Home() {
                                             Anselの学習支援制度について
                                         </p>
                                     </div>
-                                </a>
-                                <a href="/blog-page" className={styles.blog_content}>
+                                </Link>
+                                <Link href="/blog-page" className={styles.blog_content}>
                                     <Image
                                         src="/images/blog/blog3.png"
                                         alt="【社員ブログ】Connecting the dots"
@@ -335,8 +335,8 @@ export default function Home() {
                                             【社員ブログ】Connecting the dots
                                         </p>
                                     </div>
-                                </a>
-                                <a href="/blog-page" className={styles.blog_content}>
+                                </Link>
+                                <Link href="/blog-page" className={styles.blog_content}>
                                     <Image
                                         src="/images/blog/blog4.png"
                                         alt="【社員ブログ】IT経験なしの私がAnsel Technologiesに惹かれて入社するまで"
@@ -352,8 +352,8 @@ export default function Home() {
                                             【社員ブログ】IT経験なしの私がAnsel Technologiesに惹かれて入社するまで
                                         </p>
                                     </div>
-                                </a>
-                                <a href="/blog-page" className={styles.blog_content}>
+                                </Link>
+                                <Link href="/blog-page" className={styles.blog_content}>
                                     <Image
                                         src="/images/blog/blog5.png"
                                         alt="ほぼゲーム！？作って遊んで仕事もできる！話題のGather.Townを使ってみた"
@@ -369,8 +369,8 @@ export default function Home() {
                                             ほぼゲーム！？作って遊んで仕事もできる！話題のGather.Townを使ってみた
                                         </p>
                                     </div>
-                                </a>
-                                <a href="/blog-page" className={styles.blog_content}>
+                                </Link>
+                                <Link href="/blog-page" className={styles.blog_content}>
                                     <Image
                                     src="/images/blog/blog6.png"
                                     alt="【社員インタビュー】“最年少”エンジニアを目指す女性社員に聞いてみた！！"
@@ -386,7 +386,7 @@ export default function Home() {
                                             【社員インタビュー】“最年少”エンジニアを目指す女性社員に聞いてみた！！
                                         </p>
                                     </div>
-                                </a>
+                                </Link>
                             </div>
                         </div>
                     </div>

@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { ArticleCard } from "../pages/components/Blog/Blog";
 import styles from "../styles/Blogpage.module.css";
 // import fs from "fs";
@@ -100,12 +101,12 @@ const Article = () => {
                         </div>
                         <div className={styles.page_arrow}>
                             <div className={styles.page_arrow_flex}>
-                                <a className={styles.prev_page_arrow}></a>
+                                <Link className={styles.prev_page_arrow}></Link>
                                 <p>前の記事へ</p>
                             </div>
                             <div className={styles.page_arrow_flex}>
                                 <p>次の記事へ</p>
-                                <a className={styles.next_page_arrow}></a>
+                                <Link className={styles.next_page_arrow}></Link>
                             </div>
                         </div>
                     </div>
