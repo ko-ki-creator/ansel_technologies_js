@@ -1,7 +1,7 @@
 import Image from "next/image";
 import styles from "../styles/Company.module.css";
 // import Link from "next/link";
-import Slider from "./components/molecules/Slider/Slider";
+import Slider from "../components/molecules/Slider/Slider";
 import { Splide } from "@splidejs/react-splide";
 
 export default function Company() {

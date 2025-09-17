@@ -22,3 +22,5 @@ export const ArticleCard = ({url, blogImage, blogImageAlt, date, category, title
         </Link>
     );
 };
+
+export default ArticleCard;
