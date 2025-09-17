@@ -1,5 +1,6 @@
 import Image from "next/image";
 import styles from "../styles/Service.module.css";
+import Link from "next/link";
 
 export default function Company() {
     return (
@@ -34,7 +35,7 @@ export default function Company() {
             <section>
                 <div className="wrapper">
                     <div className="inner">
-                        <div className="p_service_container">
+                        <div className={styles.p_service_container}>
                             <div className={styles.p_service_content}>
                                 <Image
                                     src="/images/service/service-solution1.png"
@@ -55,14 +56,14 @@ export default function Company() {
                                 <div className={styles.p_service_group}>
                                     <div className={styles.p_service_ttl}>
                                         <h2>エンジニア教育事業</h2>
-                                        <a href="">
+                                        <Link href="/academy">
                                             <Image
                                                 src="/images/arrow-icon/arrow-blue.svg"
                                                 alt=""
-                                                width={30}
-                                                height={30}
+                                                width={60}
+                                                height={60}
                                             />
-                                        </a>
+                                        </Link>
                                     </div>
                                     <p>
                                         未経験からプロフェッショナルなITエンジニアを育成しています。

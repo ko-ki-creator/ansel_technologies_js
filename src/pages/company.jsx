@@ -184,7 +184,7 @@ export default function Company() {
                             <h2>Access</h2>
                             <h3>アクセス</h3>
                         </div>
-                        <div className>
+                        <div className={styles.access_container}>
                             <div className={`${styles.access_content} ${styles.tokyo}`}>
                                 <iframe
                                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.1583695433874!2d139.75247527578418!3d35.697720229068004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188c15aa95a043%3A0xe5162222671241d1!2z44CSMTAxLTAwNTEg5p2x5Lqs6YO95Y2D5Luj55Sw5Yy656We55Sw56We5L-d55S677yS5LiB55uu77yT77yY4oiS77yR77yRIOWyqeeUsOODk-ODqyAxZg!5e0!3m2!1sja!2sjp!4v1751866232692!5m2!1sja!2sjp"

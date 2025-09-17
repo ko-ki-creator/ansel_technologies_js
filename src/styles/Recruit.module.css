@@ -170,6 +170,7 @@
     width: 90%;
     margin: 0 auto;
     overflow-x: scroll;
+    border-collapse: collapse;
 
     th {
         color: var(--white);
@@ -265,6 +266,7 @@
 .certification_table {
     font-family: var(--font-noto);
     width: 50%;
+    border-collapse: collapse;
 }
 /* 育成インセンティブ */
 
@@ -315,6 +317,11 @@
 .certification_table {
     width: 90%;
     margin: 0 auto;
+    border: 1px solid var(--light-black);
+
+    td {
+        border: 1px solid var(--light-black);
+    }
 }
 
 .certification_list {
@@ -327,9 +334,14 @@
 .certification_name {
     text-align: left;
     padding-left: 15px;
+    height: 50px;
+    border: 1px solid var(--light-black);
 }
 
-
+.certification_item {
+    text-align: end;
+    padding-right: 15px;
+}
 
 
 

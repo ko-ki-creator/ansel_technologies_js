@@ -3,6 +3,35 @@
 ----------------------------------------- */
 
 /* -----------------------------------------コンテナ */
+.p_service_container {
+    position: relative;
+
+    &::before {
+        content: '';
+        background-image: url(/images/blue-circle.png);
+        background-repeat: no-repeat;
+        width: 657px;
+        height: 570px;
+        position: absolute;
+        top: 15%;
+        right: -45%;
+        z-index: -1;
+    }
+
+    &::after {
+        content: '';
+        background-image: url(/images/blue-circle.png);
+        background-repeat: no-repeat;
+        width: 657px;
+        height: 570px;
+        position: absolute;
+        bottom: -10%;
+        left: -45%;
+        z-index: -1;
+        transform: rotate(180deg);
+    }
+}
+
 .p_service_content {
     display: flex;
     gap: 50px;
@@ -17,6 +46,11 @@
         font-size: 30px;
         font-weight: normal;
     }
+
+    img {
+        object-fit: contain;
+        width: 50%;
+    }
 }
 
 .p_service_ttl {
@@ -24,6 +58,15 @@
     gap: 20px;
     align-items: center;
     margin-bottom: 20px;
+
+    img {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+.p_service_group {
+    width: 50%;
 }
 
 
@@ -45,6 +88,10 @@ SP
 
         h2 {
             font-size: 21px;
+        }
+
+        img {
+            width: 100%;
         }
     }
 

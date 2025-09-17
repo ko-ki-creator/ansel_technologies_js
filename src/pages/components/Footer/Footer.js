@@ -8,7 +8,7 @@ function Footer() {
             <div className={styles.footer}>
                 <div className={styles.wrapper}>
                     <div className={styles.footer_inner}>
-                        <a href="/recruit_entry_form" className={styles.entry_btn}>
+                        <a href="/recruit_entry" className={styles.entry_btn}>
                             <p>採用エントリー</p>
                             <Image
                                 src="/images/arrow-icon/arrow-entry.svg"

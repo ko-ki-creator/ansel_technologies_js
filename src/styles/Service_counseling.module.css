@@ -23,7 +23,7 @@
     margin-bottom: 50px;
 
     .requied {
-        width: 20%;
+        width: 250px;
         padding-top: 7px;
         letter-spacing: 0.05em;
 
@@ -63,6 +63,7 @@
     display: block;
     margin-bottom: 20px;
     font-family: var(--font-hiragino);
+    width: 100%;
 }
 
 .checkbox {
@@ -125,7 +126,23 @@
     }
 }
 
+.form_error {
+    color: var(--red);
+    font-family: var(--font-hiragino);
+    margin: 10px 0 0 20px;
+}
 
+.form_name,
+.form_email,
+.form_tel,
+.form_hope,
+.form_textarea,
+.form_company,
+.form_furigana {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
 
 
 

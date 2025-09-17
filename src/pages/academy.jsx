@@ -1,9 +1,11 @@
 import Image from "next/image";
 import styles from "../styles/Academy.module.css";
+import Link from "next/link";
+// import { difference } from "next/dist/build/utils";
 
 export default function Academy() {
     return(
-        <main>
+        <main className="wrap">
             {/* ページビジュアル */}
             <section className="page_visual">
                 <div className="page_wrapper">
@@ -91,7 +93,7 @@ export default function Academy() {
                                 活躍できる高い技術の獲得を目指し、<br />Ansel Tech Academyは長く難しいカリキュラムを用意しています。
                             </p>
                         </div>
-                        <div>
+                        <div className={styles.curriculum_container}>
                             <div className={styles.curriculum_content}>
                                 <div className={styles.curriculum_group}>
                                     <h2>フロントエンド入門</h2>
@@ -310,43 +312,45 @@ export default function Academy() {
                                 height={7}
                             />
                         </div>
-                        <div>
+                        <div className={styles.difference_content}>
                             <table className={styles.myTable}>
-                                <tr>
-                                    <th className={styles.th_space}></th>
-                                    <th className={styles.ansel}>Ansel</th>
-                                    <th className={styles.head}>A社</th>
-                                    <th className={styles.head}>B社</th>
-                                    <th className={styles.head}>C社</th>
-                                </tr>
-                                <tr>
-                                    <td className={styles.column}>期間</td>
-                                    <td className={styles.ansel_item}>6ヶ月〜</td>
-                                    <td>1ヶ月</td>
-                                    <td>1,4,6ヶ月</td>
-                                    <td>3ヶ月</td>
-                                </tr>
-                                <tr>
-                                    <td className={styles.column}>担当講師</td>
-                                    <td className={styles.ansel_item}>審査に通過した<br />現役のエンジニア</td>
-                                    <td>なし</td>
-                                    <td>非公開</td>
-                                    <td>エンジニア</td>
-                                </tr>
-                                <tr>
-                                    <td className={styles.column}>価格</td>
-                                    <td className={styles.ansel_item}>498,000円〜</td>
-                                    <td>3,900円〜</td>
-                                    <td>29,800円〜</td>
-                                    <td>80,000円〜</td>
-                                </tr>
-                                <tr>
-                                    <td className={styles.column}>学習難易度</td>
-                                    <td className={styles.ansel_item}>高い</td>
-                                    <td>低い</td>
-                                    <td>一般的</td>
-                                    <td>一般的</td>
-                                </tr>
+                                <tbody>
+                                    <tr>
+                                        <th className={styles.th_space}></th>
+                                        <th className={styles.ansel}>Ansel</th>
+                                        <th className={styles.head}>A社</th>
+                                        <th className={styles.head}>B社</th>
+                                        <th className={styles.head}>C社</th>
+                                    </tr>
+                                    <tr>
+                                        <td className={styles.column}>期間</td>
+                                        <td className={styles.ansel_item}>6ヶ月〜</td>
+                                        <td>1ヶ月</td>
+                                        <td>1,4,6ヶ月</td>
+                                        <td>3ヶ月</td>
+                                    </tr>
+                                    <tr>
+                                        <td className={styles.column}>担当講師</td>
+                                        <td className={styles.ansel_item}>審査に通過した<br />現役のエンジニア</td>
+                                        <td>なし</td>
+                                        <td>非公開</td>
+                                        <td>エンジニア</td>
+                                    </tr>
+                                    <tr>
+                                        <td className={styles.column}>価格</td>
+                                        <td className={styles.ansel_item}>498,000円〜</td>
+                                        <td>3,900円〜</td>
+                                        <td>29,800円〜</td>
+                                        <td>80,000円〜</td>
+                                    </tr>
+                                    <tr>
+                                        <td className={styles.column}>学習難易度</td>
+                                        <td className={styles.ansel_item}>高い</td>
+                                        <td>低い</td>
+                                        <td>一般的</td>
+                                        <td>一般的</td>
+                                    </tr>
+                                </tbody>
                             </table>
                         </div>
                     </div>
@@ -422,7 +426,7 @@ export default function Academy() {
                                 ハイレベルなプログラミングスクールを提供しています。<br />
                                 スクール受講中は、IT系資格取得代を全額補助！
                             </p>
-                            <a href="#" className={styles.counseling_cta}>
+                            <Link href="/service_counseling" className={styles.counseling_cta}>
                                 <p>無料カウンセリングに申込む</p>
                                 <Image
                                     src="/images/arrow-icon/counseling-cta-arrow.svg"
@@ -430,7 +434,7 @@ export default function Academy() {
                                     width={20}
                                     height={20}
                                 />
-                            </a>
+                            </Link>
                         </div>
                     </div>
                 </div>
