@@ -1,8 +1,8 @@
 import "../styles/globals.css";
 import "../styles/reset.css";
 import Head from "next/head";
-import Header from "./components/Header/Header";
-import Footer from "./components/Footer/Footer";
+import Header from "../components/Header/Header";
+import Footer from "../components/Footer/Footer";
 
 function App({ Component, pageProps }) {
   return (

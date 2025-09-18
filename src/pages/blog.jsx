@@ -2,7 +2,7 @@ import Image from "next/image";
 import styles from "../styles/Blog.module.css";
 import blogStyles from "../styles/Home.module.css";
 import Link from "next/link";
-import { ArticleCard } from "./components/Blog/Blog";
+import { ArticleCard } from "../components/Blog/Blog";
 
 export default function Blog() {
     return(
