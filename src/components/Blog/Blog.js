@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import styles from "./Blog.module.css";
-import blogStyles from "../../../styles/Home.module.css";
+import blogStyles from "../../styles/Home.module.css";
 
 export const ArticleCard = ({url, blogImage, blogImageAlt, date, category, title}) => {
     return(

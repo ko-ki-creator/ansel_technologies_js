@@ -8,7 +8,7 @@ function Footer() {
             <div className={styles.footer}>
                 <div className={styles.wrapper}>
                     <div className={styles.footer_inner}>
-                        <a href="/recruit_entry" className={styles.entry_btn}>
+                        <Link href="/recruit_entry" className={styles.entry_btn}>
                             <p>採用エントリー</p>
                             <Image
                                 src="/images/arrow-icon/arrow-entry.svg"
@@ -16,7 +16,7 @@ function Footer() {
                                 width={12}
                                 height={24}
                             />
-                        </a>
+                        </Link>
                         <div className={styles.footer_container}>
                             <div className={styles.footer_content}>
                                 <h2>株式会社ANSEL TECHNOLOGIES</h2>
@@ -86,8 +86,8 @@ function Footer() {
                                     <li className={styles.footer_nav_item}>
                                         <button>お知らせ</button>
                                         <ul className={styles.footer_dropDown_list}>
-                                            <li className={styles.footer_dropDown_item}><a href="/news">- お知らせ</a></li>
-                                            <li className={styles.footer_dropDown_item}><a href="/blog">- ブログ</a></li>
+                                            <li className={styles.footer_dropDown_item}><Link href="/news">- お知らせ</Link></li>
+                                            <li className={styles.footer_dropDown_item}><Link href="/blog">- ブログ</Link></li>
                                         </ul>
                                     </li>
                                 </ul>
