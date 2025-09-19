@@ -2,7 +2,7 @@ module.exports = {
     root: true,
     ignorePatterns: ['node_modules', '.next'],
     extends: ['next', 'prettier'],
-    ecmaVersion, sourceType,
+    ecmaVersion,
     parserOptions: {
         ecmaVersion: 'latest',
         sourceType: 'module',
